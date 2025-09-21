@@ -1,0 +1,36 @@
+.categoria h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+.categoria ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none; 
+  padding: 0;
+}
+
+.categoria li {
+  background: #f5f5f5;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #444;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.categoria li:hover {
+  background: #f0c040;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
